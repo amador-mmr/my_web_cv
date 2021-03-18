@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import Layout from "./components/layouts/Layout";
-import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Training from "./components/pages/Training";
+import Experience from "./components/pages/Experience";
+import Skills from "./components/pages/Skills";
 import "./App.css";
 
 class App extends Component {
@@ -9,7 +12,10 @@ class App extends Component {
     return (
       <Layout>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={About} />
+          <Route path="/formacion" component={Training} />
+          <Route path="/experiencia" component={Experience} />
+          <Route path="/habilidades" component={Skills} />
         </Switch>
       </Layout>
     );
