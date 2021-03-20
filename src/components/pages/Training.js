@@ -1,6 +1,10 @@
 import React from "react";
 
 class Training extends React.Component {
+  componentDidMount() {
+    document.title = "Formación - Amador Moreno";
+  }
+
   render() {
     return (
       <div className="page-main">

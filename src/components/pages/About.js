@@ -13,6 +13,10 @@ class About extends React.Component {
     };
   }
 
+  componentDidMount() {
+    document.title = "Sobre mi - Amador Moreno";
+  }
+
   render() {
     return (
       <div className="page-main">

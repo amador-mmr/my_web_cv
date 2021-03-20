@@ -1,6 +1,10 @@
 import React from "react";
 
 class Experience extends React.Component {
+  componentDidMount() {
+    document.title = "Experiencia profesional - Amador Moreno";
+  }
+
   render() {
     return (
       <div className="page-main">

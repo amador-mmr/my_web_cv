@@ -5,6 +5,10 @@ class Skills extends React.Component {
   //   super(props);
   // }
 
+  componentDidMount() {
+    document.title = "Habilidades - Amador Moreno";
+  }
+
   render() {
     return (
       <div className="page-main">
