@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import img_profile from "./../../media/images/profile/profile_img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUserTie,
@@ -17,7 +18,7 @@ class Menu extends Component {
         <nav>
           <div className="menu-main">
             <div className="profile-img">
-              <Image src="" thumbnail />
+              <Image src={img_profile} thumbnail />
             </div>
           </div>
           <ul>

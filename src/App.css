@@ -10,10 +10,9 @@ body,
   height: 100%;
 }
 
-html,
 body {
-  background-color: #ffffff;
-  background-image: url("/src/media/images/background/background_2.jpg");
+  background-color: #d3cdcd;
+  background-image: url("/src/media/images/backgrounds/background.jpg");
 }
 
 #root {
