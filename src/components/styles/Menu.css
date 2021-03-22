@@ -75,7 +75,7 @@ header > nav > ul > li:hover {
 
 header > nav > ul > li > a:hover,
 header > nav > ul > li:hover,
-.active-route {
+.active {
   color: #fff;
   text-decoration: none;
   background-color: rgb(68, 119, 98);
