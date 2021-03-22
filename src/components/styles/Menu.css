@@ -71,9 +71,14 @@ header > nav > ul > li > a > p {
 header > nav > ul > li > a:hover,
 header > nav > ul > li:hover {
   width: 105%;
+}
+
+header > nav > ul > li > a:hover,
+header > nav > ul > li:hover,
+.active-route {
   color: #fff;
   text-decoration: none;
-  background-color: rgb(130, 165, 211);
+  background-color: rgb(68, 119, 98);
   -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);

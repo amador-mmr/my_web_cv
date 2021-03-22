@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Image } from "react-bootstrap";
+import { Image, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import img_profile from "./../../media/images/profile/profile_img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,25 +23,25 @@ class Menu extends Component {
           </div>
           <ul>
             <li>
-              <Link to="/">
+              <Link to="/" activeClassName="active">
                 <p>Sobre mi</p>
                 <FontAwesomeIcon icon={faInfoCircle} />
               </Link>
             </li>
             <li>
-              <Link to="/formacion">
+              <Link to="/formacion" activeClassName="active">
                 <p>Formación</p>
                 <FontAwesomeIcon icon={faUserTie} />
               </Link>
             </li>
             <li>
-              <Link to="/experiencia">
+              <Link to="/experiencia" activeClassName="active">
                 <p>Experiencia</p>
                 <FontAwesomeIcon icon={faWalking} />
               </Link>
             </li>
             <li>
-              <Link to="/habilidades">
+              <Link to="/habilidades" activeClassName="active">
                 <p>Habilidades</p>
                 <FontAwesomeIcon icon={faAddressBook} />
               </Link>

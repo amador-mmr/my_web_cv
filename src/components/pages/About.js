@@ -1,6 +1,8 @@
 import React from "react";
-//import { Image } from "react-bootstrap";
+// import { withTranslation } from "react-i18next";
+import config from "./../../config/global-config.js";
 import "./../styles/Pages.css";
+// import i18n from "./../../config/i18next-config.js";
 
 class About extends React.Component {
   constructor(props) {
@@ -14,24 +16,23 @@ class About extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Sobre mi - Amador Moreno";
+    document.title = "Sobre mi - " + config.personal.es.fullName;
   }
 
   render() {
+    //const { t, i18n } = this.props;
+
     return (
       <div className="page-main">
         <div className="page-content">
           <div className="page-header">
-            <h1>Sobre mi</h1>
+            <h1>Sobre mí</h1>
             <hr />
           </div>
-          {/* <div>
-            <Image src="" /> 
-          </div> */}
           <div className="page-welcome">
             <p>
-              ¡Bienvenido! Me llamo <strong>Amador</strong> y tengo{" "}
-              {this.state.age} años
+              ¡Bienvenido! Me llamo <strong>{config.personal.es.name}</strong> y
+              tengo {this.state.age} años
             </p>
           </div>
         </div>
