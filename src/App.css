@@ -11,13 +11,13 @@ body,
 }
 
 body {
-  background-color: #d3cdcd;
-  background-image: url("./media/images/backgrounds/background.jpg");
+  /* background-color: #d5f3d5; */
+  background-image: url("./media/images/backgrounds/background2.jpg");
 }
 
-#root {
+/* #root {
   padding: 15px;
-}
+} */
 
 .btn-change-lng {
   position: absolute;

@@ -4,14 +4,13 @@ header {
   max-width: 350px;
   margin-left: -15px;
   padding-left: 0;
-  background-color: rgb(146, 192, 148);
-  -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  /* background-color: rgb(146, 192, 148); */
+  /* -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75); */
   transition: all 1s ease-in-out;
 }
 
-header,
 header > nav {
   height: 100%;
 }
@@ -33,16 +32,31 @@ header > nav > .menu-main {
 }
 
 header > nav > ul {
-  height: 80%;
   list-style: none;
 }
 
 header > nav > ul > li {
-  height: 100px;
+  background-color: rgb(146, 192, 148);
+  height: 65px;
   /* -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75); */
 }
+
+/* header > nav > ul > li + li {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+header > nav > ul > li + li + li {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+header > nav > ul > li + li + li + li {
+  margin-left: 0px;
+  margin-right: 60px;
+} */
 
 header > nav > ul > li > a,
 header > nav > ul > li > a > p {
@@ -82,7 +96,7 @@ header > nav > ul > li:hover,
   -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  transition: all 1.2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 svg.svg-inline--fa {
