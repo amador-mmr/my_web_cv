@@ -33,6 +33,7 @@ header > nav > .menu-main {
 
 header > nav > ul {
   list-style: none;
+  padding-left: 0px;
 }
 
 header > nav > ul > li {
